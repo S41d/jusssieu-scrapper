@@ -1,0 +1,25 @@
+{
+  "name": "jussieu-scrapper",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.ts",
+  "type": "module",
+  "scripts": {
+    "tsc": "tsc index.ts -w"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "date-fns": "^2.29.3",
+    "jsdom": "^20.0.0",
+    "node-ical": "^0.15.1",
+    "playwright": "^1.25.2",
+    "sqlite3": "^5.1.1",
+    "typescript": "^4.8.3"
+  },
+  "devDependencies": {
+    "@playwright/test": "^1.25.2",
+    "@types/jsdom": "^20.0.0"
+  }
+}
