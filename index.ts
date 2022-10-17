@@ -5,10 +5,7 @@ import http from 'http'
 import { writeFile, readFileSync } from 'fs'
 import { addDays, addWeeks, isBefore } from 'date-fns'
 
-let running = false
 async function run() {
-    running = true
-    console.log("running", running);
     const browser = await chromium.launch({
         headless: true,
     })
@@ -58,9 +55,6 @@ async function run() {
             console.log(`file written:  ./edts/${filename}.json`);
         })
     }
-    running = false
-    console.log("running", running);
-    setTimeout(run, 1000 * 60)
 }
 
 function getSettingsLinks(file: string): string[] {
@@ -247,18 +241,9 @@ const server = http.createServer((req, res) => {
     let allEvents: any[] = []
     for (let filename of files) {
         let events = JSON.parse(readFileSync(`./edts/${filename}.json`).toString())
-
         allEvents = [...allEvents, ...events]
     }
-    function resIfNotRunning() {
-        if(running === true) {
-            setTimeout(resIfNotRunning, 100);
-        } else {
-            res.end(jsonToIcs(allEvents))
-        }
-    }
-    resIfNotRunning()
+    res.end(jsonToIcs(allEvents))
 });
 
-await run()
 server.listen(8080)
