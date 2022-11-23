@@ -1,0 +1,280 @@
+Info 0    [16:42:00.623] Starting TS Server
+Info 1    [16:42:00.635] Version: 4.8.3
+Info 2    [16:42:00.635] Arguments: /home/s4id/.nvm/versions/node/v16.17.0/bin/node /home/s4id/projects/jussieu-scrapper/node_modules/typescript/lib/tsserver.js --logFile /home/s4id/projects/jussieu-scrapper/.log/tsserver.log --logVerbosity info --cancellationPipeName /tmp/582602a1575403ce18c9ea250e104c6e/tscancellation*
+Info 3    [16:42:00.635] Platform: linux NodeVersion: 16 CaseSensitive: true
+Info 4    [16:42:00.635] ServerMode: undefined syntaxOnly: false hasUnknownServerMode: undefined
+Info 5    [16:42:00.646] Format host information updated
+Info 6    [16:42:00.667] Search path: /home/s4id/projects/jussieu-scrapper
+Info 7    [16:42:00.668] For info: /home/s4id/projects/jussieu-scrapper/index.ts :: Config file name: /home/s4id/projects/jussieu-scrapper/tsconfig.json
+Info 8    [16:42:00.668] Creating configuration project /home/s4id/projects/jussieu-scrapper/tsconfig.json
+Info 9    [16:42:00.689] Config: /home/s4id/projects/jussieu-scrapper/tsconfig.json : {
+ "rootNames": [
+  "/home/s4id/projects/jussieu-scrapper/index.ts",
+  "/home/s4id/projects/jussieu-scrapper/playwright.config.ts"
+ ],
+ "options": {
+  "target": 7,
+  "module": 100,
+  "esModuleInterop": true,
+  "forceConsistentCasingInFileNames": true,
+  "strict": true,
+  "skipLibCheck": true,
+  "configFilePath": "/home/s4id/projects/jussieu-scrapper/tsconfig.json"
+ }
+}
+Info 10   [16:42:00.850] Starting updateGraphWorker: Project: /home/s4id/projects/jussieu-scrapper/tsconfig.json
+Info 11   [16:42:02.141] Finishing updateGraphWorker: Project: /home/s4id/projects/jussieu-scrapper/tsconfig.json Version: 1 structureChanged: true structureIsReused:: Not Elapsed: 1291.6697409972548ms
+Info 12   [16:42:02.142] Project '/home/s4id/projects/jussieu-scrapper/tsconfig.json' (Configured)
+Info 13   [16:42:02.142] 	Files (140)
+
+Info 14   [16:42:02.142] -----------------------------------------------
+Info 15   [16:42:02.150] AutoImportProviderProject: found 2 root files in 2 dependencies in 2.98997899889946 ms
+Info 16   [16:42:02.151] Starting updateGraphWorker: Project: /dev/null/autoImportProviderProject1*
+Info 17   [16:42:02.268] Finishing updateGraphWorker: Project: /dev/null/autoImportProviderProject1* Version: 1 structureChanged: true structureIsReused:: Not Elapsed: 116.72903500124812ms
+Info 18   [16:42:02.268] Project '/dev/null/autoImportProviderProject1*' (AutoImportProvider)
+Info 19   [16:42:02.268] 	Files (55)
+
+Info 20   [16:42:02.268] -----------------------------------------------
+Info 21   [16:42:03.300] DirectoryWatcher:: Triggered with /home/s4id/projects/jussieu-scrapper/.log/ti-59738.log 0:: WatchInfo: /home/s4id/projects/jussieu-scrapper 1 undefined Config: /home/s4id/projects/jussieu-scrapper/tsconfig.json WatchType: Wild card directory
+Info 22   [16:42:03.300] Project: /home/s4id/projects/jussieu-scrapper/tsconfig.json Detected file add/remove of non supported extension: /home/s4id/projects/jussieu-scrapper/.log/ti-59738.log
+Info 23   [16:42:03.300] Elapsed:: 0.5634109973907471ms DirectoryWatcher:: Triggered with /home/s4id/projects/jussieu-scrapper/.log/ti-59738.log 0:: WatchInfo: /home/s4id/projects/jussieu-scrapper 1 undefined Config: /home/s4id/projects/jussieu-scrapper/tsconfig.json WatchType: Wild card directory
+Info 24   [16:42:05.301] Starting updateGraphWorker: Project: /home/s4id/projects/jussieu-scrapper/tsconfig.json
+Info 25   [16:42:05.326] Finishing updateGraphWorker: Project: /home/s4id/projects/jussieu-scrapper/tsconfig.json Version: 2 structureChanged: false structureIsReused:: Completely Elapsed: 24.703314002603292ms
+Info 26   [16:42:05.326] Different program with same set of files
+Info 27   [16:42:05.432] Starting updateGraphWorker: Project: /home/s4id/projects/jussieu-scrapper/tsconfig.json
+Info 28   [16:42:05.446] Finishing updateGraphWorker: Project: /home/s4id/projects/jussieu-scrapper/tsconfig.json Version: 3 structureChanged: false structureIsReused:: Completely Elapsed: 14.24736100062728ms
+Info 29   [16:42:05.446] Different program with same set of files
+Info 30   [16:42:05.836] Starting updateGraphWorker: Project: /home/s4id/projects/jussieu-scrapper/tsconfig.json
+Info 31   [16:42:05.846] Finishing updateGraphWorker: Project: /home/s4id/projects/jussieu-scrapper/tsconfig.json Version: 4 structureChanged: false structureIsReused:: Completely Elapsed: 10.24559000134468ms
+Info 32   [16:42:05.846] Different program with same set of files
+Info 33   [16:42:05.848] getCompletionData: Get current token: 0.0219310000538826
+Info 34   [16:42:05.848] getCompletionData: Is inside comment: 0.1365399993956089
+Info 35   [16:42:05.849] getCompletionData: Get previous token: 0.11118800193071365
+Info 36   [16:42:05.849] getCompletionsAtPosition: isCompletionListBlocker: 0.3744189999997616
+Info 37   [16:42:05.859] getExportInfoMap: cache miss or empty; calculating new results
+Info 38   [16:42:05.983] forEachExternalModuleToImportFrom autoImportProvider: 28.693980000913143
+Info 39   [16:42:05.983] getExportInfoMap: done in 124.7579299993813 ms
+Info 40   [16:42:06.005] collectAutoImports: resolved 2 module specifiers, plus 24 ambient and 52 from cache
+Info 41   [16:42:06.005] collectAutoImports: response is complete
+Info 42   [16:42:06.005] collectAutoImports: 21.16668600216508
+Info 43   [16:42:06.005] getCompletionData: Semantic work: 155.97520899772644
+Info 44   [16:42:06.043] getCompletionsAtPosition: getCompletionEntriesFromSymbols: 36.70332000032067
+Info 45   [16:42:07.024] Starting updateGraphWorker: Project: /home/s4id/projects/jussieu-scrapper/tsconfig.json
+Info 46   [16:42:07.041] Finishing updateGraphWorker: Project: /home/s4id/projects/jussieu-scrapper/tsconfig.json Version: 5 structureChanged: false structureIsReused:: Completely Elapsed: 17.116865001618862ms
+Info 47   [16:42:07.041] Different program with same set of files
+Info 48   [16:42:07.856] Starting updateGraphWorker: Project: /home/s4id/projects/jussieu-scrapper/tsconfig.json
+Info 49   [16:42:07.868] Finishing updateGraphWorker: Project: /home/s4id/projects/jussieu-scrapper/tsconfig.json Version: 6 structureChanged: false structureIsReused:: Completely Elapsed: 12.444336000829935ms
+Info 50   [16:42:07.868] Different program with same set of files
+Info 51   [16:42:11.631] Starting updateGraphWorker: Project: /home/s4id/projects/jussieu-scrapper/tsconfig.json
+Info 52   [16:42:11.647] Finishing updateGraphWorker: Project: /home/s4id/projects/jussieu-scrapper/tsconfig.json Version: 7 structureChanged: false structureIsReused:: Completely Elapsed: 16.3876500017941ms
+Info 53   [16:42:11.647] Different program with same set of files
+Info 54   [16:42:11.701] Starting updateGraphWorker: Project: /home/s4id/projects/jussieu-scrapper/tsconfig.json
+Info 55   [16:42:11.714] Finishing updateGraphWorker: Project: /home/s4id/projects/jussieu-scrapper/tsconfig.json Version: 8 structureChanged: false structureIsReused:: Completely Elapsed: 13.333207000046968ms
+Info 56   [16:42:11.714] Different program with same set of files
+Info 57   [16:42:12.372] Starting updateGraphWorker: Project: /home/s4id/projects/jussieu-scrapper/tsconfig.json
+Info 58   [16:42:12.397] Finishing updateGraphWorker: Project: /home/s4id/projects/jussieu-scrapper/tsconfig.json Version: 9 structureChanged: false structureIsReused:: Completely Elapsed: 24.988476000726223ms
+Info 59   [16:42:12.397] Different program with same set of files
+Info 60   [16:42:12.399] getCompletionData: Get current token: 0.03708599880337715
+Info 61   [16:42:12.399] getCompletionData: Is inside comment: 0.04707299917936325
+Info 62   [16:42:12.399] getCompletionData: Get previous token: 0.1264130026102066
+Info 63   [16:42:12.399] getCompletionsAtPosition: isCompletionListBlocker: 0.0824120007455349
+Info 64   [16:42:12.409] getExportInfoMap: cache hit
+Info 65   [16:42:12.428] collectAutoImports: resolved 0 module specifiers, plus 24 ambient and 54 from cache
+Info 66   [16:42:12.428] collectAutoImports: response is complete
+Info 67   [16:42:12.428] collectAutoImports: 18.785443998873234
+Info 68   [16:42:12.428] getCompletionData: Semantic work: 28.332341998815536
+Info 69   [16:42:12.449] getCompletionsAtPosition: getCompletionEntriesFromSymbols: 21.318591002374887
+Info 70   [16:42:12.571] Starting updateGraphWorker: Project: /home/s4id/projects/jussieu-scrapper/tsconfig.json
+Info 71   [16:42:12.589] Finishing updateGraphWorker: Project: /home/s4id/projects/jussieu-scrapper/tsconfig.json Version: 10 structureChanged: false structureIsReused:: Completely Elapsed: 17.239365998655558ms
+Info 72   [16:42:12.589] Different program with same set of files
+Info 73   [16:42:12.589] getCompletionData: Get current token: 0.014945998787879944
+Info 74   [16:42:12.589] getCompletionData: Is inside comment: 0.02437400072813034
+Info 75   [16:42:12.589] getCompletionData: Get previous token: 0.02807600051164627
+Info 76   [16:42:12.590] getCompletionsAtPosition: isCompletionListBlocker: 0.01815899834036827
+Info 77   [16:42:12.596] getExportInfoMap: cache hit
+Info 78   [16:42:12.759] collectAutoImports: resolved 3 module specifiers, plus 4819 ambient and 960 from cache
+Info 79   [16:42:12.759] collectAutoImports: response is complete
+Info 80   [16:42:12.759] collectAutoImports: 163.29423600062728
+Info 81   [16:42:12.759] getCompletionData: Semantic work: 169.72592899948359
+Info 82   [16:42:12.877] getCompletionsAtPosition: getCompletionEntriesFromSymbols: 117.0151060000062
+Info 83   [16:42:13.365] Starting updateGraphWorker: Project: /home/s4id/projects/jussieu-scrapper/tsconfig.json
+Info 84   [16:42:13.377] Finishing updateGraphWorker: Project: /home/s4id/projects/jussieu-scrapper/tsconfig.json Version: 11 structureChanged: false structureIsReused:: Completely Elapsed: 11.603375997394323ms
+Info 85   [16:42:13.377] Different program with same set of files
+Info 86   [16:42:13.441] getCompletionData: Get current token: 0.01571499928832054
+Info 87   [16:42:13.441] getCompletionData: Is inside comment: 0.024793997406959534
+Info 88   [16:42:13.441] getCompletionData: Get previous token: 0.029123999178409576
+Info 89   [16:42:13.441] getCompletionsAtPosition: isCompletionListBlocker: 0.0105460025370121
+Info 90   [16:42:13.441] Returning an empty list because completion was requested in an invalid position.
+Info 91   [16:42:13.469] Starting updateGraphWorker: Project: /home/s4id/projects/jussieu-scrapper/tsconfig.json
+Info 92   [16:42:13.483] Finishing updateGraphWorker: Project: /home/s4id/projects/jussieu-scrapper/tsconfig.json Version: 12 structureChanged: false structureIsReused:: Completely Elapsed: 14.060534998774529ms
+Info 93   [16:42:13.483] Different program with same set of files
+Info 94   [16:42:13.484] getCompletionData: Get current token: 0.014807000756263733
+Info 95   [16:42:13.484] getCompletionData: Is inside comment: 0.02437400072813034
+Info 96   [16:42:13.484] getCompletionData: Get previous token: 0.029054000973701477
+Info 97   [16:42:13.484] getCompletionsAtPosition: isCompletionListBlocker: 0.005098000168800354
+Info 98   [16:42:13.484] Returning an empty list because completion was requested in an invalid position.
+Info 99   [16:42:13.642] Starting updateGraphWorker: Project: /home/s4id/projects/jussieu-scrapper/tsconfig.json
+Info 100  [16:42:13.653] Finishing updateGraphWorker: Project: /home/s4id/projects/jussieu-scrapper/tsconfig.json Version: 13 structureChanged: false structureIsReused:: Completely Elapsed: 10.998410999774933ms
+Info 101  [16:42:13.653] Different program with same set of files
+Info 102  [16:42:13.654] getCompletionData: Get current token: 0.01920599862933159
+Info 103  [16:42:13.654] getCompletionData: Is inside comment: 0.025421999394893646
+Info 104  [16:42:13.654] getCompletionData: Get previous token: 0.06369499862194061
+Info 105  [16:42:13.654] getCompletionsAtPosition: isCompletionListBlocker: 0.004329998046159744
+Info 106  [16:42:13.654] Returning an empty list because completion was requested in an invalid position.
+Info 107  [16:42:13.706] Starting updateGraphWorker: Project: /home/s4id/projects/jussieu-scrapper/tsconfig.json
+Info 108  [16:42:13.717] Finishing updateGraphWorker: Project: /home/s4id/projects/jussieu-scrapper/tsconfig.json Version: 14 structureChanged: false structureIsReused:: Completely Elapsed: 10.77827100083232ms
+Info 109  [16:42:13.717] Different program with same set of files
+Info 110  [16:42:13.718] getCompletionData: Get current token: 0.011663999408483505
+Info 111  [16:42:13.718] getCompletionData: Is inside comment: 0.01822900027036667
+Info 112  [16:42:13.718] getCompletionData: Get previous token: 0.043091997504234314
+Info 113  [16:42:13.718] getCompletionsAtPosition: isCompletionListBlocker: 0.004329998046159744
+Info 114  [16:42:13.718] Returning an empty list because completion was requested in an invalid position.
+Info 115  [16:42:13.728] getCompletionData: Get current token: 0.009427998214960098
+Info 116  [16:42:13.728] getCompletionData: Is inside comment: 0.019416000694036484
+Info 117  [16:42:13.728] getCompletionData: Get previous token: 0.028843998908996582
+Info 118  [16:42:13.728] getCompletionsAtPosition: isCompletionListBlocker: 0.003840997815132141
+Info 119  [16:42:13.728] Returning an empty list because completion was requested in an invalid position.
+Info 120  [16:42:13.750] getCompletionData: Get current token: 0.010056998580694199
+Info 121  [16:42:13.750] getCompletionData: Is inside comment: 0.019555997103452682
+Info 122  [16:42:13.750] getCompletionData: Get previous token: 0.027727000415325165
+Info 123  [16:42:13.750] getCompletionsAtPosition: isCompletionListBlocker: 0.004749000072479248
+Info 124  [16:42:13.750] Returning an empty list because completion was requested in an invalid position.
+Info 125  [16:42:13.755] getCompletionData: Get current token: 0.009568002074956894
+Info 126  [16:42:13.755] getCompletionData: Is inside comment: 0.019415996968746185
+Info 127  [16:42:13.755] getCompletionData: Get previous token: 0.024932999163866043
+Info 128  [16:42:13.755] getCompletionsAtPosition: isCompletionListBlocker: 0.007683001458644867
+Info 129  [16:42:13.755] Returning an empty list because completion was requested in an invalid position.
+Info 130  [16:42:14.243] Starting updateGraphWorker: Project: /home/s4id/projects/jussieu-scrapper/tsconfig.json
+Info 131  [16:42:14.268] Finishing updateGraphWorker: Project: /home/s4id/projects/jussieu-scrapper/tsconfig.json Version: 15 structureChanged: false structureIsReused:: Completely Elapsed: 24.106100000441074ms
+Info 132  [16:42:14.268] Different program with same set of files
+Info 133  [16:42:15.471] Starting updateGraphWorker: Project: /home/s4id/projects/jussieu-scrapper/tsconfig.json
+Info 134  [16:42:15.498] Finishing updateGraphWorker: Project: /home/s4id/projects/jussieu-scrapper/tsconfig.json Version: 16 structureChanged: false structureIsReused:: Completely Elapsed: 26.562701001763344ms
+Info 135  [16:42:15.498] Different program with same set of files
+Info 136  [16:42:15.499] getCompletionData: Get current token: 0.017041001468896866
+Info 137  [16:42:15.499] getCompletionData: Is inside comment: 0.02276799827814102
+Info 138  [16:42:15.499] getCompletionData: Get previous token: 0.03554899990558624
+Info 139  [16:42:15.499] getCompletionsAtPosition: isCompletionListBlocker: 0.02437499910593033
+Info 140  [16:42:15.509] getExportInfoMap: cache hit
+Info 141  [16:42:15.516] collectAutoImports: resolved 0 module specifiers, plus 8 ambient and 0 from cache
+Info 142  [16:42:15.516] collectAutoImports: response is complete
+Info 143  [16:42:15.516] collectAutoImports: 6.673273999243975
+Info 144  [16:42:15.516] getCompletionData: Semantic work: 17.055893000215292
+Info 145  [16:42:15.553] getCompletionsAtPosition: getCompletionEntriesFromSymbols: 12.177262999117374
+Info 146  [16:42:16.288] Starting updateGraphWorker: Project: /home/s4id/projects/jussieu-scrapper/tsconfig.json
+Info 147  [16:42:16.307] Finishing updateGraphWorker: Project: /home/s4id/projects/jussieu-scrapper/tsconfig.json Version: 17 structureChanged: false structureIsReused:: Completely Elapsed: 18.3024910017848ms
+Info 148  [16:42:16.307] Different program with same set of files
+Info 149  [16:42:16.309] getCompletionData: Get current token: 0.03380299732089043
+Info 150  [16:42:16.309] getCompletionData: Is inside comment: 0.049657002091407776
+Info 151  [16:42:16.309] getCompletionData: Get previous token: 0.09680000320076942
+Info 152  [16:42:16.309] getCompletionsAtPosition: isCompletionListBlocker: 0.012989997863769531
+Info 153  [16:42:16.312] getCompletionData: Semantic work: 2.32872099801898
+Info 154  [16:42:16.315] getCompletionsAtPosition: getCompletionEntriesFromSymbols: 0.4487310014665127
+Info 155  [16:42:16.607] Starting updateGraphWorker: Project: /home/s4id/projects/jussieu-scrapper/tsconfig.json
+Info 156  [16:42:16.619] Finishing updateGraphWorker: Project: /home/s4id/projects/jussieu-scrapper/tsconfig.json Version: 18 structureChanged: false structureIsReused:: Completely Elapsed: 11.852430999279022ms
+Info 157  [16:42:16.619] Different program with same set of files
+Info 158  [16:42:16.991] Starting updateGraphWorker: Project: /home/s4id/projects/jussieu-scrapper/tsconfig.json
+Info 159  [16:42:17.018] Finishing updateGraphWorker: Project: /home/s4id/projects/jussieu-scrapper/tsconfig.json Version: 19 structureChanged: false structureIsReused:: Completely Elapsed: 26.78821900114417ms
+Info 160  [16:42:17.018] Different program with same set of files
+Info 161  [16:42:17.084] Starting updateGraphWorker: Project: /home/s4id/projects/jussieu-scrapper/tsconfig.json
+Info 162  [16:42:17.099] Finishing updateGraphWorker: Project: /home/s4id/projects/jussieu-scrapper/tsconfig.json Version: 20 structureChanged: false structureIsReused:: Completely Elapsed: 14.598873000591993ms
+Info 163  [16:42:17.099] Different program with same set of files
+Info 164  [16:42:17.686] Starting updateGraphWorker: Project: /home/s4id/projects/jussieu-scrapper/tsconfig.json
+Info 165  [16:42:17.697] Finishing updateGraphWorker: Project: /home/s4id/projects/jussieu-scrapper/tsconfig.json Version: 21 structureChanged: false structureIsReused:: Completely Elapsed: 10.68300699815154ms
+Info 166  [16:42:17.697] Different program with same set of files
+Info 167  [16:42:17.698] getCompletionData: Get current token: 0.020882997661828995
+Info 168  [16:42:17.698] getCompletionData: Is inside comment: 0.03031099960207939
+Info 169  [16:42:17.698] getCompletionData: Get previous token: 0.0737529993057251
+Info 170  [16:42:17.698] getCompletionsAtPosition: isCompletionListBlocker: 0.008241001516580582
+Info 171  [16:42:17.699] getCompletionData: Semantic work: 0.6769020035862923
+Info 172  [16:42:17.699] getCompletionsAtPosition: getCompletionEntriesFromSymbols: 0.4790419973433018
+Info 173  [16:42:18.141] Starting updateGraphWorker: Project: /home/s4id/projects/jussieu-scrapper/tsconfig.json
+Info 174  [16:42:18.152] Finishing updateGraphWorker: Project: /home/s4id/projects/jussieu-scrapper/tsconfig.json Version: 22 structureChanged: false structureIsReused:: Completely Elapsed: 11.385471001267433ms
+Info 175  [16:42:18.152] Different program with same set of files
+Info 176  [16:42:18.363] Format host information updated
+Info 177  [16:42:18.364] Starting updateGraphWorker: Project: /home/s4id/projects/jussieu-scrapper/tsconfig.json
+Info 178  [16:42:18.373] Finishing updateGraphWorker: Project: /home/s4id/projects/jussieu-scrapper/tsconfig.json Version: 23 structureChanged: false structureIsReused:: Completely Elapsed: 9.162909999489784ms
+Info 179  [16:42:18.373] Different program with same set of files
+Info 180  [16:42:18.374] getCompletionData: Get current token: 0.045885998755693436
+Info 181  [16:42:18.374] getCompletionData: Is inside comment: 0.014737002551555634
+Info 182  [16:42:18.374] getCompletionData: Get previous token: 0.0845780000090599
+Info 183  [16:42:18.374] getCompletionsAtPosition: isCompletionListBlocker: 0.007961999624967575
+Info 184  [16:42:18.375] getCompletionData: Semantic work: 0.8050619997084141
+Info 185  [16:42:18.439] Format host information updated
+Info 186  [16:42:18.440] Format host information updated
+Info 187  [16:42:18.440] Starting updateGraphWorker: Project: /home/s4id/projects/jussieu-scrapper/tsconfig.json
+Info 188  [16:42:18.457] Finishing updateGraphWorker: Project: /home/s4id/projects/jussieu-scrapper/tsconfig.json Version: 24 structureChanged: false structureIsReused:: Completely Elapsed: 16.825346000492573ms
+Info 189  [16:42:18.457] Different program with same set of files
+Info 190  [16:42:18.458] getCompletionData: Get current token: 0.07137800008058548
+Info 191  [16:42:18.458] getCompletionData: Is inside comment: 0.022489000111818314
+Info 192  [16:42:18.458] getCompletionData: Get previous token: 0.20554300025105476
+Info 193  [16:42:18.458] getCompletionsAtPosition: isCompletionListBlocker: 0.010056998580694199
+Info 194  [16:42:18.459] getCompletionData: Semantic work: 1.2711130008101463
+Info 195  [16:42:18.470] getCompletionData: Get current token: 0.016203001141548157
+Info 196  [16:42:18.470] getCompletionData: Is inside comment: 0.00614599883556366
+Info 197  [16:42:18.470] getCompletionData: Get previous token: 0.03862299770116806
+Info 198  [16:42:18.470] getCompletionsAtPosition: isCompletionListBlocker: 0.01983499899506569
+Info 199  [16:42:18.470] getCompletionData: Semantic work: 0.33998800069093704
+Info 200  [16:42:42.760] Starting updateGraphWorker: Project: /home/s4id/projects/jussieu-scrapper/tsconfig.json
+Info 201  [16:42:42.774] Finishing updateGraphWorker: Project: /home/s4id/projects/jussieu-scrapper/tsconfig.json Version: 25 structureChanged: false structureIsReused:: Completely Elapsed: 13.58882699906826ms
+Info 202  [16:42:42.774] Different program with same set of files
+Info 203  [16:42:42.826] Starting updateGraphWorker: Project: /home/s4id/projects/jussieu-scrapper/tsconfig.json
+Info 204  [16:42:42.834] Finishing updateGraphWorker: Project: /home/s4id/projects/jussieu-scrapper/tsconfig.json Version: 26 structureChanged: false structureIsReused:: Completely Elapsed: 8.046982999891043ms
+Info 205  [16:42:42.834] Different program with same set of files
+Info 206  [16:42:50.896] Starting updateGraphWorker: Project: /home/s4id/projects/jussieu-scrapper/tsconfig.json
+Info 207  [16:42:50.930] Finishing updateGraphWorker: Project: /home/s4id/projects/jussieu-scrapper/tsconfig.json Version: 27 structureChanged: false structureIsReused:: Completely Elapsed: 34.040965996682644ms
+Info 208  [16:42:50.931] Different program with same set of files
+Info 209  [16:42:52.192] Starting updateGraphWorker: Project: /home/s4id/projects/jussieu-scrapper/tsconfig.json
+Info 210  [16:42:52.210] Finishing updateGraphWorker: Project: /home/s4id/projects/jussieu-scrapper/tsconfig.json Version: 28 structureChanged: false structureIsReused:: Completely Elapsed: 17.625727999955416ms
+Info 211  [16:42:52.210] Different program with same set of files
+Info 212  [16:43:58.524] DirectoryWatcher:: Triggered with /home/s4id/projects/jussieu-scrapper/4913 0:: WatchInfo: /home/s4id/projects/jussieu-scrapper 1 undefined Config: /home/s4id/projects/jussieu-scrapper/tsconfig.json WatchType: Wild card directory
+Info 213  [16:43:58.537] Elapsed:: 1.2615450024604797ms DirectoryWatcher:: Triggered with /home/s4id/projects/jussieu-scrapper/4913 0:: WatchInfo: /home/s4id/projects/jussieu-scrapper 1 undefined Config: /home/s4id/projects/jussieu-scrapper/tsconfig.json WatchType: Wild card directory
+Info 214  [16:43:58.537] DirectoryWatcher:: Triggered with /home/s4id/projects/jussieu-scrapper/4913 1:: WatchInfo: /home/s4id/projects/jussieu-scrapper 1 undefined Config: /home/s4id/projects/jussieu-scrapper/tsconfig.json WatchType: Wild card directory
+Info 215  [16:43:58.538] Elapsed:: 0.15448899939656258ms DirectoryWatcher:: Triggered with /home/s4id/projects/jussieu-scrapper/4913 1:: WatchInfo: /home/s4id/projects/jussieu-scrapper 1 undefined Config: /home/s4id/projects/jussieu-scrapper/tsconfig.json WatchType: Wild card directory
+Info 216  [16:43:58.538] DirectoryWatcher:: Triggered with /home/s4id/projects/jussieu-scrapper/index.ts 2:: WatchInfo: /home/s4id/projects/jussieu-scrapper 1 undefined Config: /home/s4id/projects/jussieu-scrapper/tsconfig.json WatchType: Wild card directory
+Info 217  [16:43:58.538] Elapsed:: 0.22188600152730942ms DirectoryWatcher:: Triggered with /home/s4id/projects/jussieu-scrapper/index.ts 2:: WatchInfo: /home/s4id/projects/jussieu-scrapper 1 undefined Config: /home/s4id/projects/jussieu-scrapper/tsconfig.json WatchType: Wild card directory
+Info 218  [16:43:58.538] DirectoryWatcher:: Triggered with /home/s4id/projects/jussieu-scrapper/index.ts~ 3:: WatchInfo: /home/s4id/projects/jussieu-scrapper 1 undefined Config: /home/s4id/projects/jussieu-scrapper/tsconfig.json WatchType: Wild card directory
+Info 219  [16:43:58.538] Project: /home/s4id/projects/jussieu-scrapper/tsconfig.json Detected file add/remove of non supported extension: /home/s4id/projects/jussieu-scrapper/index.ts~
+Info 220  [16:43:58.538] Elapsed:: 0.14366400241851807ms DirectoryWatcher:: Triggered with /home/s4id/projects/jussieu-scrapper/index.ts~ 3:: WatchInfo: /home/s4id/projects/jussieu-scrapper 1 undefined Config: /home/s4id/projects/jussieu-scrapper/tsconfig.json WatchType: Wild card directory
+Info 221  [16:43:58.538] DirectoryWatcher:: Triggered with /home/s4id/projects/jussieu-scrapper/index.ts 4:: WatchInfo: /home/s4id/projects/jussieu-scrapper 1 undefined Config: /home/s4id/projects/jussieu-scrapper/tsconfig.json WatchType: Wild card directory
+Info 222  [16:43:58.538] Elapsed:: 0.09791800007224083ms DirectoryWatcher:: Triggered with /home/s4id/projects/jussieu-scrapper/index.ts 4:: WatchInfo: /home/s4id/projects/jussieu-scrapper 1 undefined Config: /home/s4id/projects/jussieu-scrapper/tsconfig.json WatchType: Wild card directory
+Info 223  [16:43:58.538] DirectoryWatcher:: Triggered with /home/s4id/projects/jussieu-scrapper/index.ts 5:: WatchInfo: /home/s4id/projects/jussieu-scrapper 1 undefined Config: /home/s4id/projects/jussieu-scrapper/tsconfig.json WatchType: Wild card directory
+Info 224  [16:43:58.538] Elapsed:: 0.08918800204992294ms DirectoryWatcher:: Triggered with /home/s4id/projects/jussieu-scrapper/index.ts 5:: WatchInfo: /home/s4id/projects/jussieu-scrapper 1 undefined Config: /home/s4id/projects/jussieu-scrapper/tsconfig.json WatchType: Wild card directory
+Info 225  [16:43:58.538] DirectoryWatcher:: Triggered with /home/s4id/projects/jussieu-scrapper/index.ts~ 6:: WatchInfo: /home/s4id/projects/jussieu-scrapper 1 undefined Config: /home/s4id/projects/jussieu-scrapper/tsconfig.json WatchType: Wild card directory
+Info 226  [16:43:58.539] Project: /home/s4id/projects/jussieu-scrapper/tsconfig.json Detected file add/remove of non supported extension: /home/s4id/projects/jussieu-scrapper/index.ts~
+Info 227  [16:43:58.539] Elapsed:: 0.09554300084710121ms DirectoryWatcher:: Triggered with /home/s4id/projects/jussieu-scrapper/index.ts~ 6:: WatchInfo: /home/s4id/projects/jussieu-scrapper 1 undefined Config: /home/s4id/projects/jussieu-scrapper/tsconfig.json WatchType: Wild card directory
+Info 228  [16:43:58.539] DirectoryWatcher:: Triggered with /home/s4id/projects/jussieu-scrapper/index.ts 7:: WatchInfo: /home/s4id/projects/jussieu-scrapper 1 undefined Config: /home/s4id/projects/jussieu-scrapper/tsconfig.json WatchType: Wild card directory
+Info 229  [16:43:58.541] Elapsed:: 0.1770480014383793ms DirectoryWatcher:: Triggered with /home/s4id/projects/jussieu-scrapper/index.ts 7:: WatchInfo: /home/s4id/projects/jussieu-scrapper 1 undefined Config: /home/s4id/projects/jussieu-scrapper/tsconfig.json WatchType: Wild card directory
+Info 230  [16:43:58.790] Starting updateGraphWorker: Project: /home/s4id/projects/jussieu-scrapper/tsconfig.json
+Info 231  [16:43:58.790] Finishing updateGraphWorker: Project: /home/s4id/projects/jussieu-scrapper/tsconfig.json Version: 29 structureChanged: false structureIsReused:: Completely Elapsed: 0.3687629997730255ms
+Info 232  [16:44:01.040] Before ensureProjectForOpenFiles:
+Info 233  [16:44:01.040] After ensureProjectForOpenFiles:
+Info 234  [16:44:01.041] got projects updated in background, updating diagnostics for /home/s4id/projects/jussieu-scrapper/index.ts
+Info 235  [16:44:24.409] Starting updateGraphWorker: Project: /home/s4id/projects/jussieu-scrapper/tsconfig.json
+Info 236  [16:44:24.438] Finishing updateGraphWorker: Project: /home/s4id/projects/jussieu-scrapper/tsconfig.json Version: 30 structureChanged: false structureIsReused:: Completely Elapsed: 28.920196000486612ms
+Info 237  [16:44:24.438] Different program with same set of files
+Info 238  [16:49:28.310] DirectoryWatcher:: Triggered with /home/s4id/projects/jussieu-scrapper/4913 0:: WatchInfo: /home/s4id/projects/jussieu-scrapper 1 undefined Config: /home/s4id/projects/jussieu-scrapper/tsconfig.json WatchType: Wild card directory
+Info 239  [16:49:28.310] Elapsed:: 0.3663179986178875ms DirectoryWatcher:: Triggered with /home/s4id/projects/jussieu-scrapper/4913 0:: WatchInfo: /home/s4id/projects/jussieu-scrapper 1 undefined Config: /home/s4id/projects/jussieu-scrapper/tsconfig.json WatchType: Wild card directory
+Info 240  [16:49:28.311] DirectoryWatcher:: Triggered with /home/s4id/projects/jussieu-scrapper/4913 1:: WatchInfo: /home/s4id/projects/jussieu-scrapper 1 undefined Config: /home/s4id/projects/jussieu-scrapper/tsconfig.json WatchType: Wild card directory
+Info 241  [16:49:28.311] Elapsed:: 0.18570899963378906ms DirectoryWatcher:: Triggered with /home/s4id/projects/jussieu-scrapper/4913 1:: WatchInfo: /home/s4id/projects/jussieu-scrapper 1 undefined Config: /home/s4id/projects/jussieu-scrapper/tsconfig.json WatchType: Wild card directory
+Info 242  [16:49:28.311] DirectoryWatcher:: Triggered with /home/s4id/projects/jussieu-scrapper/index.ts 2:: WatchInfo: /home/s4id/projects/jussieu-scrapper 1 undefined Config: /home/s4id/projects/jussieu-scrapper/tsconfig.json WatchType: Wild card directory
+Info 243  [16:49:28.311] Elapsed:: 0.15937799960374832ms DirectoryWatcher:: Triggered with /home/s4id/projects/jussieu-scrapper/index.ts 2:: WatchInfo: /home/s4id/projects/jussieu-scrapper 1 undefined Config: /home/s4id/projects/jussieu-scrapper/tsconfig.json WatchType: Wild card directory
+Info 244  [16:49:28.311] DirectoryWatcher:: Triggered with /home/s4id/projects/jussieu-scrapper/index.ts~ 3:: WatchInfo: /home/s4id/projects/jussieu-scrapper 1 undefined Config: /home/s4id/projects/jussieu-scrapper/tsconfig.json WatchType: Wild card directory
+Info 245  [16:49:28.312] Project: /home/s4id/projects/jussieu-scrapper/tsconfig.json Detected file add/remove of non supported extension: /home/s4id/projects/jussieu-scrapper/index.ts~
+Info 246  [16:49:28.312] Elapsed:: 0.14547999948263168ms DirectoryWatcher:: Triggered with /home/s4id/projects/jussieu-scrapper/index.ts~ 3:: WatchInfo: /home/s4id/projects/jussieu-scrapper 1 undefined Config: /home/s4id/projects/jussieu-scrapper/tsconfig.json WatchType: Wild card directory
+Info 247  [16:49:28.312] DirectoryWatcher:: Triggered with /home/s4id/projects/jussieu-scrapper/index.ts 4:: WatchInfo: /home/s4id/projects/jussieu-scrapper 1 undefined Config: /home/s4id/projects/jussieu-scrapper/tsconfig.json WatchType: Wild card directory
+Info 248  [16:49:28.312] Elapsed:: 0.28718800097703934ms DirectoryWatcher:: Triggered with /home/s4id/projects/jussieu-scrapper/index.ts 4:: WatchInfo: /home/s4id/projects/jussieu-scrapper 1 undefined Config: /home/s4id/projects/jussieu-scrapper/tsconfig.json WatchType: Wild card directory
+Info 249  [16:49:28.312] DirectoryWatcher:: Triggered with /home/s4id/projects/jussieu-scrapper/index.ts 5:: WatchInfo: /home/s4id/projects/jussieu-scrapper 1 undefined Config: /home/s4id/projects/jussieu-scrapper/tsconfig.json WatchType: Wild card directory
+Info 250  [16:49:28.312] Elapsed:: 0.15085799992084503ms DirectoryWatcher:: Triggered with /home/s4id/projects/jussieu-scrapper/index.ts 5:: WatchInfo: /home/s4id/projects/jussieu-scrapper 1 undefined Config: /home/s4id/projects/jussieu-scrapper/tsconfig.json WatchType: Wild card directory
+Info 251  [16:49:28.312] DirectoryWatcher:: Triggered with /home/s4id/projects/jussieu-scrapper/index.ts~ 6:: WatchInfo: /home/s4id/projects/jussieu-scrapper 1 undefined Config: /home/s4id/projects/jussieu-scrapper/tsconfig.json WatchType: Wild card directory
+Info 252  [16:49:28.312] Project: /home/s4id/projects/jussieu-scrapper/tsconfig.json Detected file add/remove of non supported extension: /home/s4id/projects/jussieu-scrapper/index.ts~
+Info 253  [16:49:28.312] Elapsed:: 0.11356299743056297ms DirectoryWatcher:: Triggered with /home/s4id/projects/jussieu-scrapper/index.ts~ 6:: WatchInfo: /home/s4id/projects/jussieu-scrapper 1 undefined Config: /home/s4id/projects/jussieu-scrapper/tsconfig.json WatchType: Wild card directory
+Info 254  [16:49:28.312] DirectoryWatcher:: Triggered with /home/s4id/projects/jussieu-scrapper/index.ts 7:: WatchInfo: /home/s4id/projects/jussieu-scrapper 1 undefined Config: /home/s4id/projects/jussieu-scrapper/tsconfig.json WatchType: Wild card directory
+Info 255  [16:49:28.313] Elapsed:: 0.08534599840641022ms DirectoryWatcher:: Triggered with /home/s4id/projects/jussieu-scrapper/index.ts 7:: WatchInfo: /home/s4id/projects/jussieu-scrapper 1 undefined Config: /home/s4id/projects/jussieu-scrapper/tsconfig.json WatchType: Wild card directory
+Info 256  [16:49:28.564] Starting updateGraphWorker: Project: /home/s4id/projects/jussieu-scrapper/tsconfig.json
+Info 257  [16:49:28.565] Finishing updateGraphWorker: Project: /home/s4id/projects/jussieu-scrapper/tsconfig.json Version: 31 structureChanged: false structureIsReused:: Completely Elapsed: 0.3960009999573231ms
+Info 258  [16:49:30.812] Before ensureProjectForOpenFiles:
+Info 259  [16:49:30.812] After ensureProjectForOpenFiles:
+Info 260  [16:49:30.812] got projects updated in background, updating diagnostics for /home/s4id/projects/jussieu-scrapper/index.ts
+Info 261  [16:50:41.025] Starting updateGraphWorker: Project: /home/s4id/projects/jussieu-scrapper/tsconfig.json
+Info 262  [16:50:41.055] Finishing updateGraphWorker: Project: /home/s4id/projects/jussieu-scrapper/tsconfig.json Version: 32 structureChanged: false structureIsReused:: Completely Elapsed: 29.85343400016427ms
+Info 263  [16:50:41.055] Different program with same set of files

@@ -216,12 +216,24 @@ const server = http.createServer((req, res) => {
     res.statusCode = 200;
     res.setHeader('Content-Type', 'text/calendar; charset=uft-8');
     let url = new URL(req.url ?? '', `http://${req.headers.host}`);
-    let files = url.pathname.toUpperCase().split('&');
+    let path = url.pathname.toUpperCase();
+    console.log(path);
+    if (path.charAt(0) == "/") {
+        path = path.slice(1, path.length);
+        console.log(path);
+    }
+    let files = path.split('&');
     let allEvents = [];
     for (let filename of files) {
-        let events = JSON.parse(readFileSync(`./edts/${filename}.json`).toString());
-        allEvents = [...allEvents, ...events];
+        try {
+            let events = JSON.parse(readFileSync(`./edts/${filename}.json`).toString());
+            allEvents = [...allEvents, ...events];
+        }
+        catch (e) {
+            console.log("error reading file: " + filename);
+        }
     }
     res.end(jsonToIcs(allEvents));
 });
+run();
 server.listen(8080);

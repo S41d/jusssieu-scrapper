@@ -5,7 +5,7 @@
   "main": "index.ts",
   "type": "module",
   "scripts": {
-    "tsc": "tsc index.ts -w"
+    "tsc": "tsc -w"
   },
   "keywords": [],
   "author": "",

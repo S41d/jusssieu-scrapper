@@ -1,0 +1,77 @@
+[16:42:00.799] Global cache location '/home/s4id/.cache/typescript/4.8', safe file path '/home/s4id/projects/jussieu-scrapper/node_modules/typescript/lib/typingSafeList.json', types map path /home/s4id/projects/jussieu-scrapper/node_modules/typescript/lib/typesMap.json
+[16:42:00.800] Processing cache location '/home/s4id/.cache/typescript/4.8'
+[16:42:00.800] Trying to find '/home/s4id/.cache/typescript/4.8/package.json'...
+[16:42:00.801] Loaded content of '/home/s4id/.cache/typescript/4.8/package.json': {"private":true,"dependencies":{"types-registry":"^0.1.616"},"devDependencies":{"@types/accepts":"^1.3.5","@types/bluebird":"^3.5.37","@types/body-parser":"^1.19.2","@types/brace-expansion":"^1.1.0","@types/clean-css":"^4.2.5","@types/connect":"^3.4.35","@types/connect-history-api-fallback":"^1.3.5","@types/core-js":"^2.5.5","@types/cssstyle":"^2.2.1","@types/data-urls":"^3.0.1","@types/debug":"^4.1.7","@types/depd":"^1.1.32","@types/domexception":"^4.0.0","@types/ejs":"^3.1.1","@types/electron-devtools-installer":"^2.2.2","@types/encodeurl":"^1.0.0","@types/escape-html":"^1.0.2","@types/eslint":"^8.4.6","@types/estree":"^1.0.0","@types/express":"^4.17.14","@types/express-serve-static-core":"^4.17.31","@types/he":"^1.1.2","@types/html-encoding-sniffer":"^3.0.0","@types/html-minifier-terser":"^7.0.0","@types/http-errors":"^1.8.2","@types/http-proxy":"^1.17.9","@types/jsdom":"^20.0.0","@types/json-schema":"^7.0.11","@types/merge-descriptors":"^1.0.1","@types/mime":"^3.0.1","@types/mime-types":"^2.1.1","@types/minimatch":"^5.1.2","@types/minimist":"^1.2.2","@types/node":"^18.7.18","@types/node-fetch":"^2.6.2","@types/parseurl":"^1.3.1","@types/qs":"^6.9.7","@types/range-parser":"^1.2.4","@types/relateurl":"^0.2.29","@types/sass":"^1.43.1","@types/sass-loader":"^8.0.3","@types/send":"^0.17.1","@types/serve-index":"^1.9.1","@types/serve-static":"^1.15.0","@types/sockjs":"^0.3.33","@types/source-map-support":"^0.5.6","@types/tough-cookie":"^4.0.2","@types/universalify":"^1.0.0","@types/url-parse":"^1.4.8","@types/w3c-hr-time":"^1.0.0","@types/w3c-xmlserializer":"^2.0.2","@types/whatwg-encoding":"^2.0.0","@types/whatwg-mimetype":"^3.0.0","@types/whatwg-url":"^8.2.2","@types/ws":"^8.5.3"}}
+[16:42:00.802] Loaded content of '/home/s4id/.cache/typescript/4.8/package-lock.json'
+[16:42:00.811] Adding entry into typings cache: 'accepts' => '/home/s4id/.cache/typescript/4.8/node_modules/@types/accepts/index.d.ts'
+[16:42:00.813] Adding entry into typings cache: 'bluebird' => '/home/s4id/.cache/typescript/4.8/node_modules/@types/bluebird/index.d.ts'
+[16:42:00.814] Adding entry into typings cache: 'body-parser' => '/home/s4id/.cache/typescript/4.8/node_modules/@types/body-parser/index.d.ts'
+[16:42:00.815] Adding entry into typings cache: 'brace-expansion' => '/home/s4id/.cache/typescript/4.8/node_modules/@types/brace-expansion/index.d.ts'
+[16:42:00.815] Adding entry into typings cache: 'clean-css' => '/home/s4id/.cache/typescript/4.8/node_modules/@types/clean-css/index.d.ts'
+[16:42:00.816] Adding entry into typings cache: 'connect' => '/home/s4id/.cache/typescript/4.8/node_modules/@types/connect/index.d.ts'
+[16:42:00.817] Adding entry into typings cache: 'connect-history-api-fallback' => '/home/s4id/.cache/typescript/4.8/node_modules/@types/connect-history-api-fallback/index.d.ts'
+[16:42:00.818] Adding entry into typings cache: 'core-js' => '/home/s4id/.cache/typescript/4.8/node_modules/@types/core-js/index.d.ts'
+[16:42:00.818] Adding entry into typings cache: 'cssstyle' => '/home/s4id/.cache/typescript/4.8/node_modules/@types/cssstyle/index.d.ts'
+[16:42:00.819] Adding entry into typings cache: 'data-urls' => '/home/s4id/.cache/typescript/4.8/node_modules/@types/data-urls/index.d.ts'
+[16:42:00.821] Adding entry into typings cache: 'debug' => '/home/s4id/.cache/typescript/4.8/node_modules/@types/debug/index.d.ts'
+[16:42:00.821] Adding entry into typings cache: 'depd' => '/home/s4id/.cache/typescript/4.8/node_modules/@types/depd/index.d.ts'
+[16:42:00.822] Adding entry into typings cache: 'domexception' => '/home/s4id/.cache/typescript/4.8/node_modules/@types/domexception/index.d.ts'
+[16:42:00.823] Adding entry into typings cache: 'ejs' => '/home/s4id/.cache/typescript/4.8/node_modules/@types/ejs/index.d.ts'
+[16:42:00.823] Adding entry into typings cache: 'electron-devtools-installer' => '/home/s4id/.cache/typescript/4.8/node_modules/@types/electron-devtools-installer/index.d.ts'
+[16:42:00.825] Adding entry into typings cache: 'encodeurl' => '/home/s4id/.cache/typescript/4.8/node_modules/@types/encodeurl/index.d.ts'
+[16:42:00.825] Adding entry into typings cache: 'escape-html' => '/home/s4id/.cache/typescript/4.8/node_modules/@types/escape-html/index.d.ts'
+[16:42:00.826] Adding entry into typings cache: 'eslint' => '/home/s4id/.cache/typescript/4.8/node_modules/@types/eslint/index.d.ts'
+[16:42:00.826] Adding entry into typings cache: 'estree' => '/home/s4id/.cache/typescript/4.8/node_modules/@types/estree/index.d.ts'
+[16:42:00.827] Adding entry into typings cache: 'express' => '/home/s4id/.cache/typescript/4.8/node_modules/@types/express/index.d.ts'
+[16:42:00.828] Adding entry into typings cache: 'express-serve-static-core' => '/home/s4id/.cache/typescript/4.8/node_modules/@types/express-serve-static-core/index.d.ts'
+[16:42:00.829] Adding entry into typings cache: 'he' => '/home/s4id/.cache/typescript/4.8/node_modules/@types/he/index.d.ts'
+[16:42:00.830] Adding entry into typings cache: 'html-encoding-sniffer' => '/home/s4id/.cache/typescript/4.8/node_modules/@types/html-encoding-sniffer/index.d.ts'
+[16:42:00.830] Adding entry into typings cache: 'html-minifier-terser' => '/home/s4id/.cache/typescript/4.8/node_modules/@types/html-minifier-terser/index.d.ts'
+[16:42:00.831] Adding entry into typings cache: 'http-errors' => '/home/s4id/.cache/typescript/4.8/node_modules/@types/http-errors/index.d.ts'
+[16:42:00.831] Adding entry into typings cache: 'http-proxy' => '/home/s4id/.cache/typescript/4.8/node_modules/@types/http-proxy/index.d.ts'
+[16:42:00.832] Adding entry into typings cache: 'jsdom' => '/home/s4id/.cache/typescript/4.8/node_modules/@types/jsdom/index.d.ts'
+[16:42:00.832] Adding entry into typings cache: 'json-schema' => '/home/s4id/.cache/typescript/4.8/node_modules/@types/json-schema/index.d.ts'
+[16:42:00.833] Adding entry into typings cache: 'merge-descriptors' => '/home/s4id/.cache/typescript/4.8/node_modules/@types/merge-descriptors/index.d.ts'
+[16:42:00.833] Adding entry into typings cache: 'mime' => '/home/s4id/.cache/typescript/4.8/node_modules/@types/mime/index.d.ts'
+[16:42:00.834] Adding entry into typings cache: 'mime-types' => '/home/s4id/.cache/typescript/4.8/node_modules/@types/mime-types/index.d.ts'
+[16:42:00.835] Adding entry into typings cache: 'minimatch' => '/home/s4id/.cache/typescript/4.8/node_modules/@types/minimatch/index.d.ts'
+[16:42:00.835] Adding entry into typings cache: 'minimist' => '/home/s4id/.cache/typescript/4.8/node_modules/@types/minimist/index.d.ts'
+[16:42:00.837] Adding entry into typings cache: 'node' => '/home/s4id/.cache/typescript/4.8/node_modules/@types/node/index.d.ts'
+[16:42:00.837] Adding entry into typings cache: 'node-fetch' => '/home/s4id/.cache/typescript/4.8/node_modules/@types/node-fetch/index.d.ts'
+[16:42:00.838] Adding entry into typings cache: 'parseurl' => '/home/s4id/.cache/typescript/4.8/node_modules/@types/parseurl/index.d.ts'
+[16:42:00.838] Adding entry into typings cache: 'qs' => '/home/s4id/.cache/typescript/4.8/node_modules/@types/qs/index.d.ts'
+[16:42:00.839] Adding entry into typings cache: 'range-parser' => '/home/s4id/.cache/typescript/4.8/node_modules/@types/range-parser/index.d.ts'
+[16:42:00.839] Adding entry into typings cache: 'relateurl' => '/home/s4id/.cache/typescript/4.8/node_modules/@types/relateurl/index.d.ts'
+[16:42:00.840] Adding entry into typings cache: 'sass' => '/home/s4id/.cache/typescript/4.8/node_modules/@types/sass/index.d.ts'
+[16:42:00.840] Adding entry into typings cache: 'sass-loader' => '/home/s4id/.cache/typescript/4.8/node_modules/@types/sass-loader/index.d.ts'
+[16:42:00.841] Adding entry into typings cache: 'send' => '/home/s4id/.cache/typescript/4.8/node_modules/@types/send/index.d.ts'
+[16:42:00.841] Adding entry into typings cache: 'serve-index' => '/home/s4id/.cache/typescript/4.8/node_modules/@types/serve-index/index.d.ts'
+[16:42:00.842] Adding entry into typings cache: 'serve-static' => '/home/s4id/.cache/typescript/4.8/node_modules/@types/serve-static/index.d.ts'
+[16:42:00.842] Adding entry into typings cache: 'sockjs' => '/home/s4id/.cache/typescript/4.8/node_modules/@types/sockjs/index.d.ts'
+[16:42:00.842] Adding entry into typings cache: 'source-map-support' => '/home/s4id/.cache/typescript/4.8/node_modules/@types/source-map-support/index.d.ts'
+[16:42:00.843] Adding entry into typings cache: 'tough-cookie' => '/home/s4id/.cache/typescript/4.8/node_modules/@types/tough-cookie/index.d.ts'
+[16:42:00.843] Adding entry into typings cache: 'universalify' => '/home/s4id/.cache/typescript/4.8/node_modules/@types/universalify/index.d.ts'
+[16:42:00.844] Adding entry into typings cache: 'url-parse' => '/home/s4id/.cache/typescript/4.8/node_modules/@types/url-parse/index.d.ts'
+[16:42:00.844] Adding entry into typings cache: 'w3c-hr-time' => '/home/s4id/.cache/typescript/4.8/node_modules/@types/w3c-hr-time/index.d.ts'
+[16:42:00.845] Adding entry into typings cache: 'w3c-xmlserializer' => '/home/s4id/.cache/typescript/4.8/node_modules/@types/w3c-xmlserializer/index.d.ts'
+[16:42:00.845] Adding entry into typings cache: 'whatwg-encoding' => '/home/s4id/.cache/typescript/4.8/node_modules/@types/whatwg-encoding/index.d.ts'
+[16:42:00.846] Adding entry into typings cache: 'whatwg-mimetype' => '/home/s4id/.cache/typescript/4.8/node_modules/@types/whatwg-mimetype/index.d.ts'
+[16:42:00.846] Adding entry into typings cache: 'whatwg-url' => '/home/s4id/.cache/typescript/4.8/node_modules/@types/whatwg-url/index.d.ts'
+[16:42:00.847] Adding entry into typings cache: 'ws' => '/home/s4id/.cache/typescript/4.8/node_modules/@types/ws/index.d.ts'
+[16:42:00.847] Finished processing cache location '/home/s4id/.cache/typescript/4.8'
+[16:42:00.847] Process id: 59745
+[16:42:00.847] NPM location: /home/s4id/.nvm/versions/node/v16.17.0/bin/npm (explicit '--npmLocation' not  provided)
+[16:42:00.847] validateDefaultNpmLocation: false
+[16:42:00.847] Npm config file: /home/s4id/.cache/typescript/4.8/package.json
+[16:42:00.847] Updating types-registry npm package...
+[16:42:00.847] Exec: /home/s4id/.nvm/versions/node/v16.17.0/bin/npm install --ignore-scripts types-registry@latest
+[16:42:01.647]     Succeeded. stdout:
+    
+    up to date, audited 79 packages in 577ms
+
+3 packages are looking for funding
+  run `npm fund` for details
+
+found 0 vulnerabilities
+
+[16:42:01.648] Updated types-registry npm package
