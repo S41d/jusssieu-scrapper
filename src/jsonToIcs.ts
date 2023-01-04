@@ -35,30 +35,37 @@ function jsonToIcs(events: any[]) {
         eventsCalendarStr += "BEGIN:VEVENT\n" +
             `UID:${event.uid}\n`
 
-        if (event.dtstamp) {
-            eventsCalendarStr += `DTSTAMP:${formatDateForIcs(event.dtstamp)}\n`
-        }
-        if (event.start) {
-            eventsCalendarStr += `DTSTART:${formatDateForIcs(event.start)}\n`
-        }
-        if (event.end) {
-            eventsCalendarStr += `DTEND:${formatDateForIcs(event.end)}\n`
-        }
-        if (event.created) {
-            eventsCalendarStr += `CREATED:${formatDateForIcs(event.created)}\n`
-        }
-        if (event.lastmodified) {
-            eventsCalendarStr += `LAST-MODIFIED:${formatDateForIcs(event.lastmodified)}\n`
-        }
-        if (event.location) {
-            eventsCalendarStr += `LOCATION:${event.location}\n`
-        }
-        if (event.summary) {
-            eventsCalendarStr += `SUMMARY:${event.summary}\n`
-        }
-        if (event.description) {
-            eventsCalendarStr += `DESCRIPTION:${event.description}\n`
-        }
+        event.dtstamp
+            ? eventsCalendarStr += `DTSTAMP:${formatDateForIcs(event.dtstamp)}\n`
+            : eventsCalendarStr += `DTSTAMP: \n`
+
+        event.start
+            ? eventsCalendarStr += `DTSTART:${formatDateForIcs(event.start)}\n`
+            : eventsCalendarStr += `DTSTART: \n`
+
+        event.end
+            ? eventsCalendarStr += `DTEND:${formatDateForIcs(event.end)}\n`
+            : eventsCalendarStr += `DTEND: \n`
+
+        event.created
+            ? eventsCalendarStr += `CREATED:${formatDateForIcs(event.created)}\n`
+            : eventsCalendarStr += `CREATED: \n`
+
+        event.lastmodified
+            ? eventsCalendarStr += `LAST-MODIFIED:${formatDateForIcs(event.lastmodified)}\n`
+            : eventsCalendarStr += `LAST-MODIFIED: \n`
+
+        event.location
+            ? eventsCalendarStr += `LOCATION:${event.location}\n`
+            : eventsCalendarStr += `LOCATION: \n`
+
+        event.summary
+            ? eventsCalendarStr += `SUMMARY:${event.summary}\n`
+            : eventsCalendarStr += `SUMMARY: \n`
+
+        event.description
+            ? eventsCalendarStr += `DESCRIPTION:${event.description}\n`
+            : eventsCalendarStr += `DESCRIPTION: \n`
 
         eventsCalendarStr += "END:VEVENT\n";
     }

@@ -9,8 +9,9 @@ async function run() {
         headless: true,
     });
     const page = await browser.newPage();
+    console.log("loading page");
     await page.goto('https://cal.ufr-info-p6.jussieu.fr/master/');
-    page.setDefaultTimeout(100000);
+    page.setDefaultTimeout(350000);
     let response = await page.waitForResponse((res) => res.url().includes('https://cal.ufr-info-p6.jussieu.fr/caldav.php/'));
     let resStr = (await response.body()).toString();
     let links = getSettingsLinks(resStr);

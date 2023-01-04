@@ -11,8 +11,9 @@ async function run() {
     })
 
     const page = await browser.newPage()
+    console.log("loading page")
     await page.goto('https://cal.ufr-info-p6.jussieu.fr/master/')
-    page.setDefaultTimeout(100000)
+    page.setDefaultTimeout(350000)
 
     let response = await page.waitForResponse((res) =>
         res.url().includes('https://cal.ufr-info-p6.jussieu.fr/caldav.php/')
@@ -238,7 +239,7 @@ const server = http.createServer((req, res) => {
     res.setHeader('Content-Type', 'text/calendar; charset=uft-8');
     let url = new URL(req.url ?? '', `http://${req.headers.host}`)
     let path = url.pathname.toUpperCase()
-        console.log(path);
+    console.log(path);
     if (path.charAt(0)== "/") {
         path = path.slice(1, path.length)
         console.log(path);
