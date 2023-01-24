@@ -5,7 +5,9 @@
   "main": "index.ts",
   "type": "module",
   "scripts": {
-    "tsc": "tsc -w"
+    "tsc": "tsc -w",
+    "server": "node dist/index.js",
+    "convert": "cd dist && node jsonToIcs.js ../edts && cd .."
   },
   "keywords": [],
   "author": "",

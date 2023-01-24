@@ -92,6 +92,9 @@ function processEvents(events) {
         return false;
     }
     for (let e of events) {
+        if (e.summary === "MU4IN505-CPA-TME") {
+            console.log(e);
+        }
         if (e.recurrences) {
             let i = 1;
             for (let recurrence of Object.values(e.recurrences)) {

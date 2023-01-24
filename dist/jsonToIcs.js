@@ -57,8 +57,13 @@ function formatDateForIcs(date) {
         return (n < 10) ? '0' + n : '' + n;
     }
     let d = new Date(date);
-    return `${d.getUTCFullYear()}${padDate(d.getUTCMonth() + 1)}${padDate(d.getUTCDate())}T` +
-        `${padDate(d.getUTCHours())}${padDate(d.getUTCMinutes())}00Z`;
+    return d.getUTCFullYear() +
+        padDate(d.getUTCMonth() + 1) +
+        padDate(d.getUTCDate()) +
+        'T' +
+        padDate(d.getUTCHours()) +
+        padDate(d.getUTCMinutes()) +
+        '00Z';
 }
 function localSave(path, str) {
     if (!existsSync("./edts-ics")) {

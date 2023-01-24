@@ -96,18 +96,20 @@ function processEvents(events: any[]) {
             }
         }
         if (event.recurrences) {
-            for (let rec of Object.values(event.origUid)){
+            for (let rec of Object.values(event.origUid)) {
                 // @ts-ignore
                 if (rec.origUid === event.origUid && rec.start.getTime() === event.start.getTime()) {
                     return true
                 }
-
             }
         }
         return false
     }
 
     for (let e of events) {
+        if (e.summary === "MU4IN505-CPA-TME") {
+            console.log(e)
+        }
         if (e.recurrences) {
             let i = 1
             for (let recurrence of Object.values(e.recurrences)) {
@@ -240,7 +242,7 @@ const server = http.createServer((req, res) => {
     let url = new URL(req.url ?? '', `http://${req.headers.host}`)
     let path = url.pathname.toUpperCase()
     console.log(path);
-    if (path.charAt(0)== "/") {
+    if (path.charAt(0) == "/") {
         path = path.slice(1, path.length)
         console.log(path);
 
@@ -251,7 +253,7 @@ const server = http.createServer((req, res) => {
         try {
             let events = JSON.parse(readFileSync(`./edts/${filename}.json`).toString())
             allEvents = [...allEvents, ...events]
-        } catch(e) {
+        } catch (e) {
             console.log("error reading file: " + filename);
         }
     }
